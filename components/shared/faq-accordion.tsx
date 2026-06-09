@@ -22,7 +22,7 @@ export function FaqAccordion({
 }) {
   const dark = tone === 'navy'
   return (
-    <Accordion type="single" collapsible className="mx-auto w-full max-w-3xl">
+    <Accordion className="mx-auto w-full max-w-3xl">
       {items.map((item, i) => (
         <AccordionItem
           key={i}
